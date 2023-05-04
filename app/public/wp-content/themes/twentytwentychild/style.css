@@ -1,0 +1,11 @@
+/*
+Theme Name: Twenty Twenty Child
+Theme URI: https://example.com/twenty-twenty-child/
+Description: Child theme for the Twenty Twenty theme
+Author: Your Name
+Author URI: https://example.com/
+Template: twentytwenty
+Version: 1.0.0
+*/
+
+@import url("../twentytwenty/style.css");
