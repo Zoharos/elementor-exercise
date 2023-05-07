@@ -8,4 +8,54 @@ Template: twentytwenty
 Version: 1.0.0
 */
 
-@import url("../twentytwenty/style.css");
+
+/* Style for product grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: start;
+  }
+  
+  .product-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .product-grid-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-grid-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-grid-item .price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-grid-item .sale-price {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+  }
+  
+  .product-grid-item .badge {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+   
+/* @import url("../twentytwenty/style.css"); */
